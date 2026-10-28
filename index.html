@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contentor">
+        <div class="coluna">
+            <span class="badge">BUTTONS</span>
+            
+            <div class="linha">
+                <div>
+                    <p class="legenda">Default</p>
+                    <button class="btn-primary">Primary Button</button>
+                </div>
+                <div>
+                    <p class="legenda">Hovered</p>
+                    <button class="btn-primary btn-primary-hover">Primary Button</button>
+                </div>
+            </div>
+
+            <div class="linha" style="margin-top: 15px;">
+                <button class="btn-secondary">Secondary Button</button>
+                <button class="btn-secondary btn-secondary-hover">Secondary Button</button>
+            </div>
+            <br>
+            <span class="badge">INPUTS</span>
+
+            <div class="campo">
+                <label>Full Name</label>
+                <input type="text" placeholder="ex. Lida Owen">
+                <span class="dica-campo">Default</span>
+            </div>
+            <div class="campo">
+                <label>Your Name</label>
+                <input type="text" value="Anthony Webb">
+                <span class="dica-campo">Filled</span>
+            </div>
+            <div class="campo">
+                <label>Password</label>
+                <input type="password" value="5+ characters" class="input-erro">
+                <p class="mensagem-erro">Your password must be at least <strong>6 characters</strong> long.</p>
+                <span class="dica-campo">Focused with error message</span>
+            </div>
+
+            <div class="campo">
+                <label>Email Address</label>
+                <input type="email" value="myemail@address.com" disabled class="input-inativo">
+                <span class="dica-campo">Inactive</span>
+            </div>
+            <span class="badge">CARDS</span>
+
+            <div class="linha">
+                <div>
+                    <p class="legenda">Default Card Background</p>
+                    <div class="card"></div>
+                </div>
+                <div>
+                    <p class="legenda">Hovered Card Background</p>
+                    <div class="card card-hover"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="coluna">
+            <span class="badge">COLORS</span>
+
+            <div class="linha" style="flex-wrap: wrap;">
+                <div class="cor-box" style="background-color: #242E4C;">#242E4C</div>
+                <div class="cor-box" style="background-color: #738BFD;">#738BFD</div>
+                <div class="cor-box" style="background-color: #F55623;">#F55623</div>
+                <div class="cor-box" style="background-color: #767E96;">#767E96</div>
+                <div class="cor-container">
+                    <div class="cor-box" style="background-color: #E9EAED; color: #333;">#E9EAED</div>
+                    <span class="cor-nota">Only secondary btn background color</span>
+                </div>
+                <div class="cor-box" style="background-color: #F3F4F6; color: #333;">#F3F4F6</div>
+            </div>
+            <br>
+            <span class="badge">FONTS - Montserrat</span>
+
+            <div class="textos-coluna">
+                <h1>Page Title | 28px Bold #1E1A50</h1>
+                <h3>Secondary Title | 16px Bold #1E1A50</h3>
+                <h4>Tertiary Title | 14px Bold #1A2950</h4>
+                <a href="#" class="texto-link">Link | Montserrat 14px Medium #738BFD</a>
+                <p class="texto-placeholder">Input Placeholder | 14px Medium #767E96</p>
+                <p class="texto-paragrafo">Basic Paragraph | 12px Medium #1A2950</p>
+                <p class="texto-label">Board Summary Label | 12px Medium #767E96</p>
+                <p class="texto-alerta">Alert Message | 12px Medium #F55623</p>
+            </div>
+            <br>
+            <span class="badge">ICONS</span>
+            <div class="icones-grid">
+                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-calendar-days"></i>
+                <i class="fa-solid fa-eraser"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-solid fa-pen"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-border-all"></i>
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-image"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
